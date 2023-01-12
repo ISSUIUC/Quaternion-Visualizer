@@ -7,5 +7,5 @@ Instructions:
 2. press "choose file" and choose a valid file
 3. press upload file and observe the rocket rotate
 
-Optional:
+Optional:   
 Change the millisecond delay by changing the value on line 151 of public/index.html (current default is 100 miliseconds per quaternion)
