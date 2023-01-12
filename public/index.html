@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-        <title>Rocket Tracker</title>
+        <title>Quaternion Visualizer</title>
 
         <!-- Babylon.js -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js"></script>
@@ -145,7 +145,7 @@ var createScene = function() {
                     for (let i = 0; i < results.data.length; i++) {
                         setTimeout(()=>{
                             // console.log(results.data[i])
-                            quat = new BABYLON.Quaternion(parseFloat(results.data[i].y), parseFloat(results.data[i].x), parseFloat(results.data[i].z), parseFloat(results.data[i].w))
+                            quat = new BABYLON.Quaternion(parseFloat(results.data[i].y), parseFloat(results.data[i].z), parseFloat(results.data[i].x), parseFloat(results.data[i].w))
                             spinTo(quat)
                             console.log(quat)
                         }, (i+1)*100); 

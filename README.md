@@ -9,4 +9,4 @@ Instructions:
 
 Optional: 
 
-Change the millisecond delay by changing the value on line 151 of public/index.html (current default is 100 miliseconds per quaternion)
+Change the millisecond delay by changing the value on line 151 of public/index.html (current default is 50 miliseconds per quaternion)
