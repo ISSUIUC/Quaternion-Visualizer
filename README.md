@@ -1,9 +1,11 @@
 # Quaternion-Visualizer
 Input a csv file of quaternions with x, y, z, and w headers and have a rocket turn based on the quaternions.
 
+
+
 Instructions:
 
-1. Run index.html in public
+1. Visit the following website: https://issuiuc.github.io/Quaternion-Visualizer/index.html
 2. press "choose file" and choose a valid file
 3. press upload file and observe the rocket rotate
 
